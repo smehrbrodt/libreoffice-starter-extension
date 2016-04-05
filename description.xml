@@ -4,4 +4,7 @@
 	<display-name>
 		<name lang="en">StarterProject</name>
 	</display-name>
+	<extension-description>
+		<src lang="en" xlink:href="description/desc_en.txt"/>
+	</extension-description>
 </description>
