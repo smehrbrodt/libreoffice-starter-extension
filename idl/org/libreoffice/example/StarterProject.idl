@@ -1,0 +1,12 @@
+#ifndef __org_libreoffice_example_starterproject_idl__
+#define __org_libreoffice_example_starterproject_idl__
+
+#include <com/sun/star/task/XJobExecutor.idl>
+module org { module libreoffice { module example { 	
+
+	service StarterProject : com::sun::star::task::XJobExecutor {
+
+	};
+
+ }; }; };
+#endif

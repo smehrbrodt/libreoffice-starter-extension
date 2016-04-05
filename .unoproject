@@ -1,0 +1,12 @@
+#UNO project configuration file
+#Tue Apr 05 16:35:24 CEST 2016
+project.srcdir=/source
+regclassname=org.libreoffice.example.comp.RegistrationHandler
+javaversion=java5
+project.sdk=5.0.5.2
+project.ooo=LibreOffice 5.0
+project.implementation=comp
+project.build=build
+project.language=Java
+project.prefix=org.libreoffice.example
+project.idl=/idl
