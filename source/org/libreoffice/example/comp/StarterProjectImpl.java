@@ -2,6 +2,9 @@ package org.libreoffice.example.comp;
 
 import com.sun.star.uno.XComponentContext;
 import com.sun.star.lib.uno.helper.Factory;
+
+import org.libreoffice.example.helper.DialogHelper;
+
 import com.sun.star.lang.XSingleComponentFactory;
 import com.sun.star.registry.XRegistryKey;
 import com.sun.star.lib.uno.helper.WeakBase;
@@ -58,7 +61,7 @@ public final class StarterProjectImpl extends WeakBase
     // com.sun.star.task.XJobExecutor:
     public void trigger(String Event)
     {
-        // TODO: Insert your implementation for "trigger" here.
+        DialogHelper.showInfoMessage(m_xContext, null, "Hello World!");
     }
 
 }
