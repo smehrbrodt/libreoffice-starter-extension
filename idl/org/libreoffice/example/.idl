@@ -1,5 +1,0 @@
-#ifndef __org_libreoffice_example__idl__
-#define __org_libreoffice_example__idl__
-
-module org { module libreoffice { module example {  }; }; };
-#endif
