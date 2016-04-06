@@ -1,0 +1,69 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<oor:component-data oor:package="org.openoffice.Office" oor:name="Addons"
+	xmlns:oor="http://openoffice.org/2001/registry" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+	<node oor:name="AddonUI">
+
+		<node oor:name="Images">
+			<node oor:name="org.libreoffice.example.StarterProject.imageActionOne" oor:op="replace">
+				<prop oor:name="URL" oor:type="xs:string">
+					<value>service:org.libreoffice.example.StarterProject?actionOne</value>
+				</prop>
+				<node oor:name="UserDefinedImages">
+					<prop oor:name="ImageSmallURL">
+						<value>vnd.sun.star.extension://org.libreoffice.example.StarterProject/images/actionOne_16.png</value>
+					</prop>
+					<prop oor:name="ImageBigURL">
+						<value>vnd.sun.star.extension://org.libreoffice.example.StarterProject/images/actionOne_26.png</value>
+					</prop>
+				</node>
+			</node>
+		</node>
+
+		<node oor:name="OfficeToolBar">
+			<node oor:name="at.gv.brz.office.OfficeAktensystem.toolbar" oor:op="replace">
+				<prop oor:name="Title" oor:type="xs:string">
+					<value>Starter Project</value>
+				</prop>
+				<node oor:name="t01" oor:op="replace">
+					<prop oor:name="URL" oor:type="xs:string">
+						<value>service:org.libreoffice.example.StarterProject?actionOne</value>
+					</prop>
+					<prop oor:name="Target" oor:type="xs:string">
+						<value>_self</value>
+					</prop>
+					<prop oor:name="Context" oor:type="xs:string">
+						<value>com.sun.star.text.TextDocument</value>
+					</prop>
+					<prop oor:name="Title" oor:type="xs:string">
+						<value xml:lang="de">Action One</value>
+					</prop>
+				</node>
+			</node>
+		</node>
+
+		<node oor:name="OfficeMenuBar">
+			<node oor:name="at.gv.brz.office.OfficeAktensystem.menubar" oor:op="replace">
+				<prop oor:name="Title" oor:type="xs:string">
+					<value xml:lang="de">Starter Project</value>
+				</prop>
+				<prop oor:name="Context" oor:type="xs:string">
+					<value>com.sun.star.text.TextDocument</value>
+				</prop>
+				<node oor:name="Submenu">
+					<node oor:name="M1" oor:op="replace">
+						<prop oor:name="Title">
+							<value xml:lang="en-US">Action One</value>
+						</prop>
+						<prop oor:name="URL">
+							<value>service:org.libreoffice.example.StarterProject?actionOne</value>
+						</prop>
+						<prop oor:name="Target" oor:type="xs:string">
+							<value>_self</value>
+						</prop>
+					</node>
+				</node>
+			</node>
+		</node>
+
+	</node>
+</oor:component-data>
