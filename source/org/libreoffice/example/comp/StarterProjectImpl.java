@@ -59,9 +59,16 @@ public final class StarterProjectImpl extends WeakBase
     }
 
     // com.sun.star.task.XJobExecutor:
-    public void trigger(String Event)
+    public void trigger(String action)
     {
-        DialogHelper.showInfoMessage(m_xContext, null, "Hello World!");
+    	switch (action) {
+    	case "actionOne":
+    		DialogHelper.showInfoMessage(m_xContext, null, action);
+    		break;
+    	default:
+    		DialogHelper.showErrorMessage(m_xContext, null, "Unknown action: " + action);
+    	}
+        
     }
 
 }
