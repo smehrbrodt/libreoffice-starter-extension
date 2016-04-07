@@ -27,3 +27,7 @@ You can use this project as a starting point to write your own extension for Lib
 * The dialog shown when clicking "Action One" is in [dialog/ActionOneDialog.xdl]. The dialog itself contains information how to edit it.
 * The [DialogHelper](https://github.com/smehrbrodt/libreoffice-starter-plugin/blob/master/source/org/libreoffice/example/helper/DialogHelper.java) contains lots of helper methods to work with the dialog.
 * Now go on customizing the extension to your needs. You'll find lots of information in the [OpenOffice Wiki](https://wiki.openoffice.org/wiki/Extensions_development).
+
+### Debugging
+
+To debug the Java code, just stick a breakpoint anywhere in Eclipse and start your run configuration in debug mode.
