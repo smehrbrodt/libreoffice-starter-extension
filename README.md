@@ -20,11 +20,12 @@ You can use this project as a starting point to write your own extension for Lib
 7. The extension will be installed in LibreOffice and you will see a toolbar and a menu entry have been added to Writer.
 
 ## Development Hints
-* The entry point is in [source/org/libreoffice/example/comp/StarterProjectImpl](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/source/org/libreoffice/example/comp/StarterProjectImpl.java).
-* Toolbar items and menu entries are defined in [registry/org/openoffice/Office/Addons.xcu](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/registry/org/openoffice/Office/Addons.xcu).
-* Shortcuts are defined in [registry/org/openoffice/Office/Accelerators.xcu](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/registry/org/openoffice/Office/Accelerators.xcu).
-* The position of the toolbar is defined in [registry/org/openoffice/Office/UI/WriterWindowState.xcu](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/registry/org/openoffice/Office/UI/WriterWindowState.xcu).
-* The dialog shown when clicking "Action One" is in [dialog/ActionOneDialog.xdl](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/dialog/ActionOneDialog.xdl). The dialog itself contains information how to edit it.
+* The entry point is in [StarterProjectImpl.java](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/source/org/libreoffice/example/comp/StarterProjectImpl.java).
+* Toolbar items and menu entries are defined in [Addons.xcu](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/registry/org/openoffice/Office/Addons.xcu).
+* Shortcuts are defined in [Accelerators.xcu](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/registry/org/openoffice/Office/Accelerators.xcu).
+* The position of the toolbar is defined in [WriterWindowState.xcu](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/registry/org/openoffice/Office/UI/WriterWindowState.xcu).
+* The dialog shown when clicking "Action One" is [ActionOneDialog.xdl](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/dialog/ActionOneDialog.xdl). The dialog itself contains information how to edit it.
 * The [DialogHelper](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/source/org/libreoffice/example/helper/DialogHelper.java) contains lots of helper methods to work with the dialog.
-* Now go on customizing the extension to your needs. You'll find lots of information in the [OpenOffice Wiki](https://wiki.openoffice.org/wiki/Extensions_development).
 * To debug the Java code, just stick a breakpoint anywhere in Eclipse and start your run configuration in debug mode.
+* If you add non-code files to your extension, you need to mention them in [package.properties](https://github.com/smehrbrodt/libreoffice-starter-extension/blob/master/package.properties), else they won't be included in the packaged extension.
+* Now go on customizing the extension to your needs. You'll find lots of information in the [OpenOffice Wiki](https://wiki.openoffice.org/wiki/Extensions_development).
