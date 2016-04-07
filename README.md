@@ -6,18 +6,18 @@ You can use this project as a starting point to write your own extension for Lib
 
 ## Get started
 
-# Install [LibreOffice](http://www.libreoffice.org/download) & [LibreOffice SDK](http://www.libreoffice.org/download) (5.0 or greater)
-# Install [Eclipse](http://www.eclipse.org/) & the [LOEclipse plugin](https://github.com/LibreOffice/loeclipse/#installation)
-# [Download](https://github.com/smehrbrodt/libreoffice-starter-plugin/archive/master.zip) this starter project & unzip it
-# Import the project in Eclipse (File->Import->Existing Projects into Workspace)
-# Let Eclipse know the paths to LibreOffice & the SDK (Project->Properties->UNO Properties)
-# Setup Run Configuration
-## Go to Run->Run Configurations
-## Create a new run configuration of the type "LibreOffice Application"
-## Select the project
-## Run!
-## *Hint: Show the error log to view the output of the run configuration (Window->Show View->Error Log)*
-# The extension will be installed in LibreOffice and you will see a toolbar and a menu entry have been added to Writer.
+1. Install [LibreOffice](http://www.libreoffice.org/download) & [LibreOffice SDK](http://www.libreoffice.org/download) (5.0 or greater)
+2. Install [Eclipse](http://www.eclipse.org/) & the [LOEclipse plugin](https://github.com/LibreOffice/loeclipse/#installation)
+3. [Download](https://github.com/smehrbrodt/libreoffice-starter-plugin/archive/master.zip) this starter project & unzip it
+4. Import the project in Eclipse (File->Import->Existing Projects into Workspace)
+5. Let Eclipse know the paths to LibreOffice & the SDK (Project->Properties->UNO Properties)
+6. Setup Run Configuration
+  * Go to Run->Run Configurations
+  * Create a new run configuration of the type "LibreOffice Application"
+  * Select the project
+  * Run!
+  * *Hint: Show the error log to view the output of the run configuration (Window->Show View->Error Log)*
+7. The extension will be installed in LibreOffice and you will see a toolbar and a menu entry have been added to Writer.
 
 ## Development Hints
 * The entry point is in [source/org/libreoffice/example/comp/StarterProjectImpl](https://github.com/smehrbrodt/libreoffice-starter-plugin/blob/master/source/org/libreoffice/example/comp/StarterProjectImpl.java).
