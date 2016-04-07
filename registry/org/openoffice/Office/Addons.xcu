@@ -20,7 +20,7 @@
 		</node>
 
 		<node oor:name="OfficeToolBar">
-			<node oor:name="at.gv.brz.office.OfficeAktensystem.toolbar" oor:op="replace">
+			<node oor:name="org.libreoffice.example.StarterProject.toolbar" oor:op="replace">
 				<prop oor:name="Title" oor:type="xs:string">
 					<value>Starter Project</value>
 				</prop>
@@ -42,7 +42,7 @@
 		</node>
 
 		<node oor:name="OfficeMenuBar">
-			<node oor:name="at.gv.brz.office.OfficeAktensystem.menubar" oor:op="replace">
+			<node oor:name="org.libreoffice.example.StarterProject.menubar" oor:op="replace">
 				<prop oor:name="Title" oor:type="xs:string">
 					<value xml:lang="de">Starter Project</value>
 				</prop>
