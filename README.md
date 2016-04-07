@@ -24,7 +24,7 @@ You can use this project as a starting point to write your own extension for Lib
 * Toolbar items and menu entries are defined in [registry/org/openoffice/Office/Addons.xcu](https://github.com/smehrbrodt/libreoffice-starter-plugin/blob/master/registry/org/openoffice/Office/Addons.xcu).
 * Shortcuts are defined in [registry/org/openoffice/Office/Accelerators.xcu](https://github.com/smehrbrodt/libreoffice-starter-plugin/blob/master/registry/org/openoffice/Office/Accelerators.xcu).
 * The position of the toolbar is defined in [registry/org/openoffice/Office/UI/WriterWindowState.xcu](https://github.com/smehrbrodt/libreoffice-starter-plugin/blob/master/registry/org/openoffice/Office/UI/WriterWindowState.xcu).
-* The dialog shown when clicking "Action One" is in [dialog/ActionOneDialog.xdl]. The dialog itself contains information how to edit it.
+* The dialog shown when clicking "Action One" is in [dialog/ActionOneDialog.xdl](https://github.com/smehrbrodt/libreoffice-starter-plugin/blob/master/dialog/ActionOneDialog.xdl). The dialog itself contains information how to edit it.
 * The [DialogHelper](https://github.com/smehrbrodt/libreoffice-starter-plugin/blob/master/source/org/libreoffice/example/helper/DialogHelper.java) contains lots of helper methods to work with the dialog.
 * Now go on customizing the extension to your needs. You'll find lots of information in the [OpenOffice Wiki](https://wiki.openoffice.org/wiki/Extensions_development).
 
