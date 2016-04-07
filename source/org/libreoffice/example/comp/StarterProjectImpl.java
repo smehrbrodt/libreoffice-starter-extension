@@ -3,6 +3,7 @@ package org.libreoffice.example.comp;
 import com.sun.star.uno.XComponentContext;
 import com.sun.star.lib.uno.helper.Factory;
 
+import org.libreoffice.example.dialog.ActionOneDialog;
 import org.libreoffice.example.helper.DialogHelper;
 
 import com.sun.star.lang.XSingleComponentFactory;
@@ -63,7 +64,8 @@ public final class StarterProjectImpl extends WeakBase
     {
     	switch (action) {
     	case "actionOne":
-    		DialogHelper.showInfoMessage(m_xContext, null, action);
+    		ActionOneDialog actionOneDialog = new ActionOneDialog(m_xContext);
+    		actionOneDialog.show();
     		break;
     	default:
     		DialogHelper.showErrorMessage(m_xContext, null, "Unknown action: " + action);

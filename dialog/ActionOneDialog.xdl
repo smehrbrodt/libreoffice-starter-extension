@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE dlg:window PUBLIC "-//OpenOffice.org//DTD OfficeDocument 1.0//EN" "dialog.dtd">
+<dlg:window xmlns:dlg="http://openoffice.org/2000/dialog" xmlns:script="http://openoffice.org/2000/script" dlg:id="ActionOneDialog" dlg:left="87" dlg:top="26" dlg:width="230" dlg:height="106" dlg:closeable="true" dlg:moveable="true" dlg:title="Action One">
+ <dlg:bulletinboard>
+  <dlg:text dlg:id="Label1" dlg:tab-index="0" dlg:left="6" dlg:top="6" dlg:width="206" dlg:height="21" dlg:value="Import this dialog file in LibreOffice to add your own widgets"/>
+  <dlg:text dlg:id="Label2" dlg:tab-index="1" dlg:left="-88" dlg:top="64" dlg:width="11" dlg:height="2" dlg:value="Label2"/>
+  <dlg:text dlg:id="Label3" dlg:tab-index="2" dlg:left="6" dlg:top="34" dlg:width="214" dlg:height="38" dlg:value="You can do that by navigating to&#x0a;Tools-&gt;Macros-&gt;Manage Dialogs,&#x0a;then create a new dialog and import this file using the &quot;Import Dialog&quot; button on the toolbar.&#x0a;When finished, export it again using the toolbar button &quot;Export Dialog&quot;."/>
+  <dlg:button dlg:id="CommandButtonClose" dlg:tab-index="3" dlg:left="173" dlg:top="88" dlg:width="51" dlg:height="13" dlg:value="Close">
+   <script:event script:event-name="on-performaction" script:macro-name="vnd.sun.star.UNO:actionOk" script:language="UNO"/>
+  </dlg:button>
+ </dlg:bulletinboard>
+</dlg:window>
