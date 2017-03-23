@@ -12,11 +12,11 @@ You can use this project as a starting point to write your own extension for Lib
 4. Import the project in Eclipse (File->Import->Existing Projects into Workspace)
 5. Let Eclipse know the paths to LibreOffice & the SDK (Project->Properties->LibreOffice Properties)
 6. Setup Run Configuration
-  * Go to Run->Run Configurations
-  * Create a new run configuration of the type "LibreOffice Application"
-  * Select the project
-  * Run!
-  * *Hint: Show the error log to view the output of the run configuration (Window->Show View->Error Log)*
+    * Go to Run->Run Configurations
+    * Create a new run configuration of the type "LibreOffice Application"
+    * Select the project
+    * Run!
+    * *Hint: Show the error log to view the output of the run configuration (Window->Show View->Error Log)*
 7. The extension will be installed in LibreOffice and you will see a toolbar and a menu entry have been added to Writer.
 
 ## Development Hints
