@@ -35,7 +35,7 @@
 						<value>com.sun.star.text.TextDocument</value>
 					</prop>
 					<prop oor:name="Title" oor:type="xs:string">
-						<value xml:lang="de">Action One</value>
+						<value xml:lang="en-US">Action One</value>
 					</prop>
 				</node>
 			</node>
@@ -44,7 +44,7 @@
 		<node oor:name="OfficeMenuBar">
 			<node oor:name="org.libreoffice.example.StarterProject.menubar" oor:op="replace">
 				<prop oor:name="Title" oor:type="xs:string">
-					<value xml:lang="de">Starter Project</value>
+					<value xml:lang="en-US">Starter Project</value>
 				</prop>
 				<prop oor:name="Context" oor:type="xs:string">
 					<value>com.sun.star.text.TextDocument</value>
